@@ -1,0 +1,95 @@
+body{
+	background-image: url('des1.png');
+    color: #fff;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+#main-header{
+    width: 100%;
+	height: 150px;
+	margin-top: 10px;
+	position: relative;
+	background-image: url('code.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+#navbar{
+	background-color:goldenrod;
+}
+#navbar ul{
+   list-style-type: none;
+   margin:0;
+   padding:0;
+   overflow:0;
+}
+#navbar li{
+	float:left; 
+	width:20%;
+	
+}
+#navbar a{
+	display:block;  
+	color: black;
+	text-align:center;
+	padding:16px;
+	text-decoration:none; 
+}
+#navbar li a:hover{
+	background-color:black;
+	color: white;
+	}
+#showcase{
+	background-image: url('des.png');
+	min-height: 150px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: black;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#main-footer{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+	#navbar li{
+		width: 100%;
+		float: none;
+	}
+}
